@@ -27,10 +27,10 @@ func main() {
 	})
 
 	// Log a message indicating that the server is starting
-	log.Println("Server starting on port 8080...")
+	log.Println("Server starting on port 3000...")
 
 	// ListenAndServe starts an HTTP server on port 8080.
 	// The second argument (nil) means we are using the default HTTP multiplexer
 	// (http.DefaultServeMux), which automatically handles the registered routes.
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":3000", nil)
 }
