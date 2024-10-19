@@ -6,6 +6,8 @@ import (
 	"net/http"
 )
 
+//HTTP server that contains multiple routes. When a request is made to a route, print a log line
+
 func main() {
 	// HandleFunc registers a route and its corresponding handler function.
 	// This function handles the "/hello" route.
